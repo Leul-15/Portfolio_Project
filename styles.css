@@ -1,0 +1,165 @@
+body,
+h1,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("images.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.content h1 {
+  font-size: 70px;
+  margin-top: 80px;
+}
+
+.content p {
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.container h1 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.container p {
+  margin-bottom: 20px;
+}
+
+.form {
+  background-color: #f7fbfc;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 80%;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.form h1 {
+  text-align: center;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  margin-bottom: 5px;
+}
+
+.form input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #45a049;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  z-index: 2;
+  text-align: center;
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+}
+
+th {
+  background: #e1ebe6;
+}
+
+th,
+td {
+  padding: 12px 15px;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.updateBtn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+}
+
+.updateBtn:hover {
+  background-color: #45a049;
+}
+
+.deleteBtn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+}
+
+.deleteBtn:hover {
+  background-color: #da190b;
+}
