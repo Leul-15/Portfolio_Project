@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Welcome to the Library Management System! This system is designed to help libraries efficiently manage their resources, including books and loans. It provides features for adding, updating, and deleting books, as well as tracking loans and managing patron information.
+Welcome to the Library Management System! This system is designed to help libraries efficiently manage their resources, including books and loans. It provides features for adding, updating, and deleting books, as well as tracking loans.
 
 ## Installation
 
@@ -30,4 +30,4 @@ To set up the Library Management System on your local machine, follow these step
    flask run
    ```
 2. Open your web browser and go to `http://localhost:5000` to access the system.
-3. Use the system to add, update, delete books, manage loans, and handle patron information.
+3. Use the system to add, update, delete books, manage loans, and handle.
