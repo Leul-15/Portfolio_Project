@@ -30,4 +30,4 @@ To set up the Library Management System on your local machine, follow these step
    flask run
    ```
 2. Open your web browser and go to `http://localhost:5000` to access the system.
-3. Use the system to add, update, delete books, manage loans, and handle.
+3. Use the system to add, update, delete books, manage loans.
